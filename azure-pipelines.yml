@@ -18,8 +18,3 @@ jobs:
   steps:
   - script: echo Job2
     displayName: 'Run a one-line script'
-- job: job3
-  dependsOn: job2
-  steps:
-  - script: echo Job3
-    displayName: 'Run a one-line script'
